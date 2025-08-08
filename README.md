@@ -20,7 +20,7 @@ pip install flask
 ## Running the API  
 
 ```bash
-python app.py
+python app2.py
 ```
 The API will be available at:  
 ```
