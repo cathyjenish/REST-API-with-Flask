@@ -12,20 +12,7 @@ Data is stored in an **in-memory dictionary** for demonstration purposes.
 
 ## Installation  
 
-1. **Clone the repository**  
-```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
-```
-
-2. **Create and activate a virtual environment** (optional but recommended)  
-```bash
-python -m venv venv
-source venv/bin/activate   # On macOS/Linux
-venv\Scripts\activate      # On Windows
-```
-
-3. **Install dependencies**  
+ **Install dependencies**  
 ```bash
 pip install flask
 ```
@@ -49,6 +36,10 @@ http://127.0.0.1:5000
 | POST   | `/users`           | Create a new user           | `{"name": "John", "email": "john@example.com"}` |
 | PUT    | `/users/<id>`      | Update an existing user     | `{"email": "new@example.com"}` |
 | DELETE | `/users/<id>`      | Delete a user               | -                           |
+
+## Screenshot
+
+![API Screenshot](Screenshot-4.png)
 
 ## Example Usage (with cURL)  
 
