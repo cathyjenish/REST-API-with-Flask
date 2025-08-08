@@ -37,7 +37,7 @@ http://127.0.0.1:5000
 | PUT    | `/users/<id>`      | Update an existing user     | `{"email": "new@example.com"}` |
 | DELETE | `/users/<id>`      | Delete a user               | -                           |
 
-## Screenshot
+## Example Usage (with Postman)
 
 ![API Screenshot](Screenshot-4.png)
 
